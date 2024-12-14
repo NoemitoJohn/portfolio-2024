@@ -608,6 +608,10 @@ video {
   display: grid;
 }
 
+.hidden{
+  display: none;
+}
+
 .h-48{
   height: 12rem;
 }
@@ -871,6 +875,10 @@ html {
     margin-top: 0px;
   }
 
+  .md\:flex{
+    display: flex;
+  }
+
   .md\:grid{
     display: grid;
   }
@@ -890,6 +898,10 @@ html {
   .md\:px-0{
     padding-left: 0px;
     padding-right: 0px;
+  }
+
+  .md\:text-start{
+    text-align: start;
   }
 
   .md\:text-3xl{

@@ -1,22 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="output.css">
-  <title>Document</title>
+  <title>Noemito John Lacanaria</title>
 </head>
 
 <body>
   <nav class="px-5 py-4 flex justify-between shadow-md">
     <span class="text-2xl font-semibold text-slate-800">John</span>
     <div>
-      <ul class="flex items-center justify-center h-full gap-5">
-        <li>Home</li>
-        <li>About</li>
-        <li>Projects</li>
-        <li>Contact</li>
+      <ul class="hidden md:flex items-center justify-center h-full gap-5">
+        <li>
+          <a href="#">
+            Home
+          </a>
+        </li>
+        <li>
+          <a href="#about">
+            About
+          </a>
+        </li>
+        <li>
+          <a href="#projects">
+            Projects
+          </a>
+        </li>
+        <li>
+          <a href="#contacts">
+            Contact
+          </a>
+        </li>
       </ul>
     </div>
   </nav>
@@ -53,7 +68,7 @@
     </div>
   </section>
   <!-- about me -->
-  <section class="mt-2">
+  <section class="mt-2" id="about">
     <p class="text-center text-xl font-medium tracking-wider uppercase text-slate-700 decoration-slate-800 decoration-[3px] underline-offset-8 underline">
       About Me
     </p>
@@ -209,7 +224,7 @@
     </div>
   </section>
   <!-- projects and contacts -->
-  <section class="mt-3">
+  <section class="mt-3" id="projects">
     <p class="text-center text-xl font-medium tracking-wider uppercase text-slate-700 decoration-slate-800 decoration-[3px] underline-offset-8 underline">
       Projects
     </p>
@@ -317,15 +332,15 @@
     </div>
   </section>
   <!-- certificate -->
-  <section class="mt-3" >
+  <section class="mt-3" id="contacts">
     <p class="text-center text-xl font-medium tracking-wider uppercase text-slate-700 decoration-slate-800 decoration-[3px] underline-offset-8 underline">
       Contact
     </p>
     <div class="block md:grid md:grid-cols-3">
       <div class="p-4 col-span-2">
-        <p class="text-4xl ">Interested in working together? Let’s talk.</p>
+        <p class="text-4xl text-center md:text-start">Interested in working together? Let’s talk.</p>
       </div>
-      <div class="flex justify-center md:justify-normal items-center gap-1">
+      <div class="flex justify-center  items-center gap-3">
         <div>
           <a href="mailto:noemito211@gmail.com">
             <svg
