@@ -3,7 +3,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* run tailwind npx tailwindcss -i input.css -o output.css --watch */
+/* run tailwind : npx tailwindcss -i input.css -o output.css --watch */
 
 html {
   font-family: "Poppins", sans-serif;
